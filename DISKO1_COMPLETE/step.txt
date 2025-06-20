@@ -1,0 +1,7 @@
+wget https://artifacts.picoctf.net/c/536/disko-1.dd.gz                                                                                                          
+gunzip -h                                                                                                                                                       
+gunzip -d disko-1.dd.gz                                                                                                                                         
+ls                                                                                                                                                              
+file disko-1.dd                                                                                                                                                 
+strings disko-1.dd                                                                                                                                              
+strings disko-1.dd | grep pico
